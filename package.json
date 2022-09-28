@@ -1,10 +1,11 @@
 {
-  "name": "vue3-jsondiffpatch",
+  "name": "jsondiffpatch-rc",
   "version": "0.4.2",
-  "author": "Trongn Nguyen <trongitnlu@gmail.com>",
+  "author": "Benjamin Eidelman <beneidel@gmail.com>",
   "description": "Diff & Patch for Javascript objects",
   "contributors": [
-    "Trong Nguyen <trongitnlu@gmail.com>"
+    "Trong Nguyen <trongitnlu@gmail.com>",
+    "Benjamin Eidelman <beneidel@gmail.com>"
   ],
   "browser": "dist/jsondiffpatch.umd.js",
   "main": "dist/jsondiffpatch.cjs.js",
@@ -36,7 +37,13 @@
   "keywords": [
     "json",
     "diff",
-    "patch"
+    "patch",
+    "jsondiffpatch",
+    "vue3 jsondiffpatch",
+    "react jsondiffpatch",
+    "angular jsondiffpatch",
+    "compare json",
+    "json compare"
   ],
   "dependencies": {
     "diff-match-patch": "^1.0.0"

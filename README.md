@@ -1,4 +1,4 @@
-vue3-jsondiffpatch
+jsondiffpatch-rc
 =============
 
 <!--- badges -->
