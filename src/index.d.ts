@@ -188,11 +188,9 @@ export const create: (options?: any) => DiffPatcher
 
 export const formatters: {
   annotated: Formatter;
-  console: Formatter;
   html: HtmlFormatter;
 };
 
-export const console: Formatter
 
 export const dateReviver: (key: string, value: any) => any;
 

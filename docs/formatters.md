@@ -36,25 +36,6 @@ add ```build/formatters.js``` and ```src/formatters/annotated.css``` to your pag
 
 Html can be generated sever-side the same way, just remember to include (or embed) ```/src/formatters/annotated.css``` when rendering.
 
-Console
--------
-
-Node.js colored output (thanks to [chalk](https://github.com/sindresorhus/chalk)!).
-It's used by the CLI:
-
-![console_demo!](../docs/demo/consoledemo.png)
-
-but you can use it programmatically too:
-
-``` javascript
-var delta = jsondiffpatch.diff(left, right);
-var output = jsondiffpatch.formatters.console.format(delta);
-console.log(delta);
-
-// or simply
-jsondiffpatch.console.log(delta);
-```
-
 JSON PATCH (RFC 6902)
 -------
 ``` javascript

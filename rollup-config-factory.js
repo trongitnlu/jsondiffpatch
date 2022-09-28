@@ -15,7 +15,6 @@ import Visualizer from 'rollup-plugin-visualizer';
  */
 export function createBrowserUmdBuildConfig(dirName = 'dist') {
   const external = [
-    'chalk',
   ];
   return {
     input: 'src/main.js',
@@ -45,7 +44,6 @@ export function createBrowserUmdBuildConfig(dirName = 'dist') {
  */
 export function createSlimBrowserUmdBuildConfig(dirName = 'dist') {
   const external = [
-    'chalk',
     'diff-match-patch',
   ];
   return {
@@ -109,7 +107,6 @@ export function createModuleBuild(dirName = 'dist', includeCoverage = false) {
     external: [
       // external node modules
       'diff-match-patch',
-      'chalk',
     ],
     plugins,
     output: [
@@ -153,7 +150,6 @@ export function createTestBuild(dirName = 'dist', includeCoverage = false) {
     input: 'test/index.js',
     external: [
       // external node modules
-      'chalk',
       'diff-match-patch',
     ],
     plugins,
@@ -200,7 +196,6 @@ export const createBrowserTestBuild = (
     input: 'test/index.js',
     external: [
       // external node modules
-      'chalk',
       // 'diff-match-patch'
     ],
     plugins,
@@ -211,9 +206,6 @@ export const createBrowserTestBuild = (
         .replace(/^dist\//, `${dirName}/`),
       sourcemap: true,
       format: 'umd',
-      globals: {
-        'chalk': 'chalk',
-      },
     },
   };
 };

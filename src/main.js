@@ -3,8 +3,6 @@ export DiffPatcher from './diffpatcher';
 
 export * as formatters from './formatters/index';
 
-export * as console from './formatters/console';
-
 export function create(options) {
   return new DiffPatcher(options);
 }
