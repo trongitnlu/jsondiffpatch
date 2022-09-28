@@ -1,4 +1,4 @@
-jsondiffpatch
+vue3-jsondiffpatch
 =============
 
 <!--- badges -->
@@ -6,7 +6,6 @@ jsondiffpatch
 [![Code Climate](https://codeclimate.com/github/benjamine/jsondiffpatch/badges/gpa.svg)](https://codeclimate.com/github/benjamine/jsondiffpatch)
 [![Test Coverage](https://codeclimate.com/github/benjamine/jsondiffpatch/badges/coverage.svg)](https://codeclimate.com/github/benjamine/jsondiffpatch)
 [![NPM version](https://badge.fury.io/js/jsondiffpatch.svg)](http://badge.fury.io/js/jsondiffpatch)
-[![NPM dependencies](https://david-dm.org/benjamine/jsondiffpatch.svg)](https://david-dm.org/benjamine/jsondiffpatch)
 
 Diff & patch JavaScript objects
 
@@ -256,21 +255,6 @@ Visual Diff
 To see formatters in action check the [Live Demo](http://benjamine.github.io/jsondiffpatch/demo/index.html).
 
 For more details check [Formatters documentation](docs/formatters.md)
-
-Console
---------
-
-``` sh
-# diff two json files, colored output (using chalk lib)
-./node_modules/.bin/jsondiffpatch ./left.json ./right.json
-
-# or install globally
-npm install -g jsondiffpatch
-
-jsondiffpatch ./demo/left.json ./demo/right.json
-```
-
-![console_demo!](docs/demo/consoledemo.png)
 
 Plugins
 -------
